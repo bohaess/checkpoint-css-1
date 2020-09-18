@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header{
+   
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: #000000;
+    top: 0px;
+    position: fixed ;
+}
+
+.inner_header{
+    width: 800px;
+    height: 100%;
+    display: block;
+    margin: auto;
+   
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    
+}
+
+.navigation a:hover{
+    background: rgb(34, 32, 32);
+    color: black;
+}
+
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+body{
+    background: rgb(136, 132, 132);
+    font-family: sans-serif;
+}
+
+ 
+.main{
+    margin-top: 10%;
+    top: 100px;
+    
+}
+
+.main .about .name #boha{
+    color: #ccc;
+    font-size: 25px;
+    
+}
+
+.main .about .name{
+    background: rgb(65, 72, 78) ;
+    margin: 100px;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 20px;
+    line-height: 20px;
+    color: #d45969;   
+    border-radius: 15px;
+   
+}
+.profil{
+    background-image: url(../res/profil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+   
+    width: 600px;
+    height: 320px;
+    margin: 5% 25% 0px 25%;
+    
+
+}
+
+.main .about .role{
+    background: rgb(65, 72, 78) ;
+    margin: 0px 500px;
+    margin-bottom: 50px;
+    width: 500px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main .about .role h3{
+    color: #d45969;
+}
+
+
+
+.main h1{
+    font-family: cursive;
+    font-size: 52px;
+    margin: 0px 0px;
+    text-align: center;
+    color: white ;
+    padding-top: 50px;
+}
+
+
+.main .work .work_containner{ 
+
+    text-align: justify;
+    background: #3e3b47 ;
+    margin: 5px;
+    margin: 50px 25% ;
+    width: 50vw;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    border-radius: 15px;
+    
+}
+/*
+.resume{
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+}
+*/
+
+.resume .resume_nb{ 
+    float: left;
+    background: #3e3b47 ;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+  
+    border-radius: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+.resume .resume_nb h3{ 
+    color: #d45969;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.resume .resume_nb p.role {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+#r1{
+    margin: 20px 50px ;
+}
+#r2{
+    margin: 20px 50px;
+}
+
+#r3{
+    margin: 20px 50px;
+}
+
+
+
+.contact p{
+    font-family: cursive;
+    font-size: 52px;
+    margin: 60px 0px;
+    text-align: center;
+    color: white ;
+}
+
+.cnb{
+    background-color: #3e3b47;
+    width: 500px;
+    padding: 10px;
+    margin: 30px 30%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.fieldset{
+    margin-left: 50px;
+    width: 400px;
+    padding: 10px;
+    background-color: #3e3b47;
+}
+
+.fieldset input{
+    padding: 10px;
+    width: 150px;
+    margin: 5px;
+    border: black;
+    background-color: white;
+    font-size: 15px;
+}
+
+.legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: snow;
+    margin-left: 10px;
+}
+
+.textarea {
+    display: line;
+    padding: 10%;
+}
+
+.textarea label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: snow;
+    margin-left: 10px;
+}
+.textarea p{
+    color: snow;
+    font-size: 15px;
+    font-family: sans-serif ;
+}
+
+.container{
+    text-align: right;
+    margin: 10px;
+
+}
+.btn{
+  background: #3e3b47;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: monospace; 
+  cursor: pointer;
+  
+
+}
+.btn:hover{
+    background: rgb(221, 216, 216);
+    color: blue;
+}
+
+
+.footer{
+    background-color : black;
+    height: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: cursive;
+
+}
+.footer h5{
+    float: left;
+    
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
